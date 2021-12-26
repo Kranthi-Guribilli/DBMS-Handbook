@@ -5,14 +5,14 @@
   * ## Database Management System:
        It s a software for storing and retrieving users' data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data.<br>
        <br>
-       <i> Database management systems were developed to handle the following difficulties of typical File-processing systems supported by conventional operating systems.<br>
-       * [Redundancy of data](#Data redundancy and inconsistency)
-       * Inconsistency of Data
-       * Difficult Data Access
-       * [Unauthorized Access](#Data security)
-       * [No Concurrent Access](#Data concurrency)
-       * Atomicity of updates
-       * Backup and Recovery </i>
+       <i> Database management systems were developed to handle the following difficulties of typical File-processing systems supported by conventional operating systems.</i><br>
+       1. [Redundancy of data](#Data redundancy and inconsistency)
+       2.  Inconsistency of Data
+       3. Difficult Data Access
+       4. [Unauthorized Access](#Data security)
+       5. [No Concurrent Access](#Data concurrency)
+       6. Atomicity of updates
+       7. Backup and Recovery
    * ## Other Important Terminologies:
         * <b>Data Definition:</b> It helps in creation, modification and removal of definitions that define the organization of data in database.
         * <b>Data Updation:</b> It helps in insertion, modification and deletion of the actual data in the database.
