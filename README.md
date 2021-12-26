@@ -15,8 +15,8 @@
         * [TCL](#TCL)
      
 ## SQL:
-## DDL:
-DDL is short name of Data Definition Language, which deals with database schemas and
+* ## DDL:
+     DDL is short name of Data Definition Language, which deals with database schemas and
 descriptions, of how the data should reside in the database.<br>
 ● CREATE - to create a database and its objects like (table, index, views, store procedure,
 function, and triggers)<br>
@@ -26,8 +26,8 @@ function, and triggers)<br>
 records are removed<br>
 ● RENAME - rename an object<br>
 
-## DML:
-DML is short name of Data Manipulation Language which deals with data manipulation and
+* ## DML:
+     DML is short name of Data Manipulation Language which deals with data manipulation and
 includes most common SQL statements such SELECT, INSERT, UPDATE, DELETE, etc., and it is
 used to store, modify, retrieve, delete and update data in a database.<br>
 ● SELECT - retrieve data from a database<br>
@@ -36,14 +36,14 @@ used to store, modify, retrieve, delete and update data in a database.<br>
 ● DELETE - Delete all records from a database table<br>
 ● MERGE - UPSERT operation (insert or update)<br>
 
-## DCL:
-DCL is short name of Data Control Language which includes commands such as GRANT and
+* ## DCL:
+     DCL is short name of Data Control Language which includes commands such as GRANT and
 mostly concerned with rights, permissions and other controls of the database system.<br>
 ● GRANT - allow users access privileges to the database<br>
 ● REVOKE - withdraw users access privileges given by using the GRANT command
 
-## TCL:
-TCL is short name of Transaction Control Language which deals with a transaction within a database.<br>
+* ## TCL:
+     TCL is short name of Transaction Control Language which deals with a transaction within a database.<br>
 ● COMMIT - commits a Transaction<br>
 ● ROLLBACK - rollback a transaction in case of any error occurs<br>
 ● SAVEPOINT - to roll back the transaction making points within groups
