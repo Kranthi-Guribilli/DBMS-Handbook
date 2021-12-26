@@ -43,6 +43,7 @@ An advantage of this type is that maintenance and understanding are easier, comp
 
 * ## Three-tier architecture:
      In this type, there is another layer between the client and the server. The client does not directly communicate with the server. Instead, it interacts with an application server which further communicates with the database system and then the query processing and transaction management takes place. This intermediate layer acts as a medium for the exchange of partially processed data between server and client. This type of architecture is used in the case of large web applications. <br>
+     
      <b> Advantages:</b>
      * <b>Enhanced scalability</b> due to distributed deployment of application servers. Now, individual connections need not be made between client and server.
      * <b>Data Integrity</b> is maintained. Since there is a middle layer between client and server, data corruption can be avoided/removed.
