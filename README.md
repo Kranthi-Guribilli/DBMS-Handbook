@@ -6,11 +6,11 @@
        It s a software for storing and retrieving users' data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data.<br>
        <br>
        <i> Database management systems were developed to handle the following difficulties of typical File-processing systems supported by conventional operating systems.</i>
-       * [Redundancy of data](#Data redundancy and inconsistency)
+       * [Redundancy of data](#Data_redundancy)
        *  Inconsistency of Data
        * Difficult Data Access
-       * [Unauthorized Access](#Data security)
-       * [No Concurrent Access](#Data concurrency)
+       * [Unauthorized Access](#Data_security)
+       * [No Concurrent Access](#Data_concurrency)
        * Atomicity of updates
        * Backup and Recovery
    * ## Other Important Terminologies:
@@ -23,19 +23,19 @@
         * [DCL](#DCL)
         * [TCL](#TCL)
 ## Advantages of DBMS:
-   * ## Data redundancy and inconsistency:
+   * ## Data_redundancy:
         Redundancy is the concept of repetition of data i.e. each data may have more than a single copy. The file system cannot control redundancy of data as each user defines and maintains the needed files for a specific application to run. There may be a possibility that two users are maintaining same files data for different applications. Hence changes made by one user does not reflect in files used by second users, which leads to inconsistency of data. Whereas DBMS controls redundancy by maintaining a single repository of data that is defined once and is accessed by many users. As there is no or less redundancy, data remains consistent.
-   * ## Data sharing:
+   * ## Data_sharing:
         File system does not allow sharing of data or sharing is too complex. Whereas in DBMS, data can be shared easily due to centralized system.
-   * ## Data concurrency: 
+   * ## Data_concurrency: 
         Concurrent access to data means more than one user is accessing the same data at the same time. Anomalies occur when changes made by one user gets lost because of changes made by other user. File system does not provide any procedure to stop anomalies. Whereas DBMS provides a locking system to stop anomalies to occur.
-   * ## Data searching:
+   * ## Data_searching:
         For every search operation performed on file system, a different application program has to be written. While DBMS provides inbuilt searching operations. User only have to write a small query to retrieve data from database.
-   * ## Data integrity:
+   * ## Data_integrity:
         There may be cases when some constraints need to be applied on the data before inserting it in database. The file system does not provide any procedure to check these constraints automatically. Whereas DBMS maintains data integrity by enforcing user defined constraints on data by itself.
-   * ## System crashing:
+   * ## System_crashing:
         In some cases,systems might have crashes due to various reasons. It is a bane in case of file systems because once the system crashes, there will be no recovery of the data that’s been lost. A DBMS will have the recovery manager which retrieves the data making it another advantage over file systems. 
-  * ## Data security:
+  * ## Data_security:
        A file system provides a password mechanism to protect the database but how longer can the password be protected?No one can guarantee that. This doesn’t happen in the case of DBMS. DBMS has specialized features that help provide shielding to its data.
 ## Architecture:
 <b>3-Tier Architecture in DBMS: </b>DBMS 3-tier architecture divides the complete system into three inter-related but independent modules as shown below:
