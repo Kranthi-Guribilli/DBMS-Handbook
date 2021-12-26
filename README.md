@@ -33,7 +33,27 @@
 
 * <b>Data Independence: </b><i>Data independence means a change of data at one level should not affect another level. Two types of data independence are present in this architecture:</i><br>
   * Physical Data Independence: <i>Any change in the physical location of tables and indexes should not affect the conceptual level or external view of data. This data independence is easy to achieve and implemented by most of the DBMS.</i>
-  * Conceptual Data Independence: <i>The data at conceptual level schema and external level schema must be independent. This means a change in conceptual schema should not affect external schema. e.g.; Adding or deleting attributes of a table should not affect the user’s view of the table. But this type of independence is difficult to achieve as compared to physical data independence because the changes in conceptual schema are reflected in the user’s view.<i>
+  * Conceptual Data Independence: <i>The data at conceptual level schema and external level schema must be independent. This means a change in conceptual schema should not affect external schema. e.g.; Adding or deleting attributes of a table should not affect the user’s view of the table. But this type of independence is difficult to achieve as compared to physical data independence because the changes in conceptual schema are reflected in the user’s view.</i>
+
+* ## Two-tier architecture:
+     The two-tier architecture is similar to a basic client-server model. The application at the client end directly communicates with the database at the server-side. APIs like ODBC, JDBC are used for this interaction. The server side is responsible for providing query processing and transaction management functionalities. On the client-side, the user interfaces and application programs are run. The application on the client-side establishes a connection with the server-side in order to communicate with the DBMS. 
+An advantage of this type is that maintenance and understanding are easier, compatible with existing systems. However, this model gives poor performance when there are a large number of users. 
+
+![image](https://user-images.githubusercontent.com/79071810/147412532-0aea3b5c-9e43-482d-ae10-cea05090e204.png)
+
+* ## Three-tier architecture:
+     In this type, there is another layer between the client and the server. The client does not directly communicate with the server. Instead, it interacts with an application server which further communicates with the database system and then the query processing and transaction management takes place. This intermediate layer acts as a medium for the exchange of partially processed data between server and client. This type of architecture is used in the case of large web applications. <br>
+     <b> Advantages:</b>
+     * <b>Enhanced scalability</b> due to distributed deployment of application servers. Now, individual connections need not be made between client and server.
+     * <b>Data Integrity</b> is maintained. Since there is a middle layer between client and server, data corruption can be avoided/removed.
+     * <b>Security</b> is improved. This type of model prevents direct interaction of the client with the server thereby reducing access to unauthorized data.
+     
+     <b>Disadvantages: </b>
+     Increased complexity of implementation and communication. It becomes difficult for this sort of interaction to take place due to the presence of middle layers. 
+     
+     ![image](https://user-images.githubusercontent.com/79071810/147412605-6f4658bf-7314-4894-8b49-a79894db5527.png)
+
+     
 
      
 ## SQL:
