@@ -37,8 +37,10 @@
         In some cases,systems might have crashes due to various reasons. It is a bane in case of file systems because once the system crashes, there will be no recovery of the data that’s been lost. A DBMS will have the recovery manager which retrieves the data making it another advantage over file systems. 
   * ## Data_security:
        A file system provides a password mechanism to protect the database but how longer can the password be protected?No one can guarantee that. This doesn’t happen in the case of DBMS. DBMS has specialized features that help provide shielding to its data.
-  * ## Simplified_Data_Access: A user need only name of the relation not exact location to access data, so the process is very simple.
-  * ## Backup_and_Recovery_mechanism: DBMS backup and recovery mechanism helps to avoid data loss and data inconsistency in case of catastrophic failures.
+  * ## Simplified_Data_Access: 
+       A user need only name of the relation not exact location to access data, so the process is very simple.
+  * ## Backup_and_Recovery_mechanism:
+       DBMS backup and recovery mechanism helps to avoid data loss and data inconsistency in case of catastrophic failures.
 ## Architecture:
 <b>3-Tier Architecture in DBMS: </b>DBMS 3-tier architecture divides the complete system into three inter-related but independent modules as shown below:
 ![image](https://user-images.githubusercontent.com/79071810/147411962-e3a63e61-0907-4802-8e68-626ea37165fc.png)<br>
