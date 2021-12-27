@@ -8,11 +8,11 @@
        <i> Database management systems were developed to handle the following difficulties of typical File-processing systems supported by conventional operating systems.</i>
        * [Redundancy of data](#Data_redundancy)
        *  Inconsistency of Data
-       * [Difficult Data Access](Simplified_Data_Access)
+       * [Difficult Data Access](#Simplified_Data_Access)
        * [Unauthorized Access](#Data_security)
        * [No Concurrent Access](#Data_concurrency)
        * Atomicity of updates
-       * [Backup and Recovery](Backup_and_Recovery_mechanism)
+       * [Backup and Recovery](#Backup_and_Recovery_mechanism)
    * ## Other Important Terminologies:
         * <b>Data Definition:</b> It helps in creation, modification and removal of definitions that define the organization of data in database.
         * <b>Data Updation:</b> It helps in insertion, modification and deletion of the actual data in the database.
